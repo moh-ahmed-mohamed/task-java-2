@@ -1,0 +1,39 @@
+.form {
+   width: 350px;
+   height: 340px;
+   border-radius: 5px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   margin: auto;
+   margin-top: 60px;
+}
+.form h1{
+   display: flex;
+   justify-content: center;
+   padding-top: 30px;
+    font-size: 30px;
+    
+}
+.form input{
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+.form .submit{
+    height: 25px;
+    width: 90px;
+    font-size: 15px;
+    font-weight: 700;
+    background-color: rgb(18, 179, 18);
+    
+}
+
+
+.error {
+    color: white;
+    width: fit-content;
+    height: fit-content;
+    background-color: red;
+    margin: auto;
+
+}
